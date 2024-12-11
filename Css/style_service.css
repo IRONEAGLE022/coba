@@ -1,0 +1,335 @@
+*{
+    font-family: Tahoma;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav a{
+    text-decoration: none;
+    color: rgb(2, 2, 51);
+}
+.nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0 rgba(0, 0,0, .2);
+    background-color: rgb(13, 211, 255);
+    width: 100%;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+img.item{
+    height: 80px;
+    width: 80px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0;
+    margin-left: 40px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.nav .item2{
+    margin: 0;
+    margin-left: 10px;
+    align-items: center;
+}
+h2.item2{
+    color: white;
+    text-shadow: 3px 3px 3px rgb(2, 2, 51);
+}
+ul.atas1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+li{
+    margin-right: 40px;
+}
+li.atas1{
+    margin-left: 200px ;
+}
+.atas1 button{
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(2, 2, 51);
+    padding: 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+.atas1 span{
+    margin-right: 10px;
+}
+
+.Services{
+    margin: 0 ;
+    padding: 50px 100px;
+    padding-bottom: 5px;
+    background-color: #bcced6;
+}
+.Services .juduls{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+    margin-bottom: 50px;
+    padding: 0 ;
+}
+.juduls h1, .juduls h3, .juduls h5{
+    margin: 3px;
+}
+.juduls h1{
+    font-size: 80px;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(2, 2, 51);
+}
+.juduls h3{
+    font-size: 50px;
+    color: rgb(2, 2, 51);
+}
+.juduls h5{
+    font-size: 20px;
+    color: rgb(2, 2, 51); 
+}
+.Services span{
+    font-size: 20px;
+}
+.kotak1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+    margin-bottom: 10px;
+    padding: 0 ;
+}
+.kotak1 div{
+    margin : 20px 20px ;
+}
+.kotak1 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+    border: 5px solid white;
+}
+.kotak1a, .kotak1b, .kotak1c{
+    background-color: white;
+    padding: 5px 20px;
+    padding-bottom: 20px;
+    border-radius: 15px 15px 15px 15px;
+    min-width: 260px;
+    min-height: 370px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid  rgb(2, 2, 51);
+}
+.kotak1 button{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(2, 2, 51);
+    padding: 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+.kotak1 span{
+    margin-right: 10px;
+}
+.kotak2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+    margin-bottom: 50px;
+    padding: 0 ;
+}
+.kotak2 div{
+    margin : 20px 20px ;
+}
+.kotak2 img{
+    height: 230px;
+    width: 230px;
+    border-radius: 15px 15px 15px 15px;
+    border: 5px solid white;
+
+}
+.kotak2a, .kotak2b, .kotak2c, .kotak2d{
+    background-color: white;
+    padding: 5px 20px;
+    padding-bottom: 20px;
+    border-radius: 15px 15px 15px 15px;
+    min-width: 190px;
+    min-height: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(2, 2, 51);
+}
+
+.kotak2 button{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(2, 2, 51);
+    padding: 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+.kotak2 span{
+    margin-right: 10px;
+}
+.info{
+    margin: 0 ;
+    padding: 50px 100px;
+    padding-bottom: 5px;
+    background-color: #1565c0;
+    color: white;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+    margin-bottom: 50px;
+    padding: 0 ;
+}
+
+.info1 h1, .info1 h5{
+    margin: 3px;
+}
+.info1 h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(2, 2, 51);
+}
+.info1 h5{
+    font-size: 15px;
+    color: white; 
+    text-shadow: 5px 5px 5px rgb(2, 2, 51);
+}
+.info2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+    margin-bottom: 80px;
+    padding: 0 ;
+}
+.info2 div{
+    margin : 20px 20px ;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px 15px 15px 15px ;
+    min-width: 150px;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(2, 2, 51);
+}
+.info2 h4{
+    color: rgb(2, 2, 51);
+    margin: 5px;
+}
+.info2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px 15px 15px 15px;
+}
+.jarak{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+.bawah{
+    color: white;
+    background-color: rgb(2, 2, 51);
+}
+.bawah1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+
+.terbawah{
+    background-color: rgb(2, 2, 51);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 ;
+    padding: 1px 0 ;
+}
+.bawah1a{
+    display: flex;  
+    align-items: center; ;
+}
+.bawah1a img{
+    height: 80px;
+    width: 80px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0 5px ;
+    padding: 0 ;
+    box-shadow: 2px 2px 2px 2px white;
+    justify-content: center;
+    align-items: center;
+}
+.bawah1a h2{
+    margin: 0;
+    margin-left: 5px;
+}
+.bawah1a h3{
+    margin: 0;
+    margin-left: 5px;
+    color: rgb(2, 2, 51);
+    background-color:rgb(13, 211, 255);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.bawah2 h3{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.bawah2a{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.bawah2a ul{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.bawah3{
+    align-self: flex-start;
+    margin-right: 60px;
+
+}
+.bawah3 ul{
+    padding: 0;
+}
+.bawah3 li{
+    margin: 20px 0;
+    align-items: left;
+}
+.bawah3 button{
+    border-radius: 15px 15px 15px 15px;
+}
+.bawah3 img{
+    width: 35px;
+    height: 35px;
+}
